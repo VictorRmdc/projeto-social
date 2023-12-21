@@ -31,6 +31,7 @@ section#telefone {
 
     height: 626px;
     width: 311px;
+    margin: 10px;
     background: url(../imagens/frame-iphone.png) no-repeat;
 
 }
