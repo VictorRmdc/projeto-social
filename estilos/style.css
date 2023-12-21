@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px; /*Configuração geral*/
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;    
+}
+
+body {
+    background: url("../imagens/fundo-madeira.jpg") no-repeat top center; /*Imagem de fundo, onde está configurado para não repetir e que o ponto de foco de imagem seja do topo ao centro*/
+    background-size: cover;
+    background-attachment: fixed; /*Evita rolagem na imagem de fundo*/
+}
+
+main {
+    position: relative; /*Para que possa ser manipulado a section telefone para o centro, o main deve ser relativo e o section absoluto*/
+    height: 100vh;  
+}
+
+section#telefone {
+    position: absolute; /*Configurações do frame iphone*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 627px;
+    width: 311px;
+    background: url(../imagens/frame-iphone.png) no-repeat;
+
+}
