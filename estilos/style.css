@@ -40,5 +40,26 @@ iframe#tela { /*Configuração de ajuste do iframe home, faz com que o conteúdo
     top: 81px;
     left: 23px;
     width: 266px;
-    height: 470px;
+    height: 469px;
+}
+
+section#redes-sociais {
+    text-align: right; /*Faz com que as imagens das redes sociais fiquem do lado direiro da tela*/
+}
+
+section#redes-sociais img { /*Configurações dos links das redes sociais da section redes-sociais*/
+    width: 50px;
+    height: 50px;
+    margin: 10px;/*Cria uma margem que distancia uma imagem da outra*/
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.481);
+    box-sizing: border-box;
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.642);
+    transform: translate(-5px, -5px);/*Faz com que ao passar o mouse por cima, a imagem vá um pouco para frente, se o número de dentro do parenteses for positivo, a imagem irá para traz ao passar o mouse*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.642);
+    transition: transform 0.5s, border 0.8s; /*Configura o tempo que as configurações acima serão ativadas ao passar o mouse.*/
+
 }
