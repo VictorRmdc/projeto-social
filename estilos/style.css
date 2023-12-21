@@ -34,3 +34,11 @@ section#telefone {
     background: url(../imagens/frame-iphone.png) no-repeat;
 
 }
+
+iframe#tela { /*Configuração de ajuste do iframe home, faz com que o conteúdo da página home fique enquadrado dentro de section telefone*/
+    position: relative;
+    top: 81px;
+    left: 23px;
+    width: 266px;
+    height: 470px;
+}
