@@ -38,10 +38,10 @@ section#telefone {
 
 iframe#tela { /*Configuração de ajuste do iframe home, faz com que o conteúdo da página home fique enquadrado dentro de section telefone*/
     position: relative;
-    top: 81px;
-    left: 23px;
+    top: 80px;
+    left: 22px;
     width: 266px;
-    height: 469px;
+    height: 470px;
 }
 
 section#redes-sociais {
@@ -61,6 +61,6 @@ section#redes-sociais img:hover {
     border: 2px solid rgba(255, 255, 255, 0.642);
     transform: translate(-5px, -5px);/*Faz com que ao passar o mouse por cima, a imagem vá um pouco para frente, se o número de dentro do parenteses for positivo, a imagem irá para traz ao passar o mouse*/
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.642);
-    transition: transform 0.5s, border 0.8s; /*Configura o tempo que as configurações acima serão ativadas ao passar o mouse.*/
+    transition: transform 0.5s, border 0.7s; /*Configura o tempo que as configurações acima serão ativadas ao passar o mouse.*/
 
 }
